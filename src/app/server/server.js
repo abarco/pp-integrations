@@ -18,11 +18,6 @@ module.exports = function() {
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({extended: false}));
 
-    // app.use((req, res, next) => {
-    //     req.app = this;
-    //     next();
-    // });
-
     routes(app);
     
     return app;

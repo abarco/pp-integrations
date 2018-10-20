@@ -1,8 +1,8 @@
 {
   "credentials": {
     "sandbox": {
-      "client_id": "AbSJLARroyEzsZMPNxVPVzb7gt6acQ2dzm3pRp3qPa9LIQrIP_HRAQbfalelN1RS7z1JOcEkZ1iEw4tx",
-      "secret": "EHF4DM4IMlOUCIXc4J9udVKMVISq1bRxiMoPAjvz9H8UsfpGAcWSec1g9XjSCEfDrDVmPvP4lVlcyAPD"
+      "client_id": "<enter your client id>",
+      "secret": "<enter your secret>"
     },
     "production": {}
   },
