@@ -1,0 +1,57 @@
+{
+  "credentials": {
+    "sandbox": {
+      "client_id": "AbSJLARroyEzsZMPNxVPVzb7gt6acQ2dzm3pRp3qPa9LIQrIP_HRAQbfalelN1RS7z1JOcEkZ1iEw4tx",
+      "secret": "EHF4DM4IMlOUCIXc4J9udVKMVISq1bRxiMoPAjvz9H8UsfpGAcWSec1g9XjSCEfDrDVmPvP4lVlcyAPD"
+    },
+    "production": {}
+  },
+
+
+
+  "payments": {
+    "sale": {
+      "intent": "sale",
+      "payer": {
+        "payment_method": "paypal"
+      },
+      "redirect_urls": {
+        "return_url": "http://yahoo.com",
+        "cancel_url": "http://paypal.com"
+      },
+      "transactions": [
+        {
+          "item_list": {
+            "items": [
+              {
+                "name": "item",
+                "sku": "item",
+                "price": "1.00",
+                "currency": "USD",
+                "quantity": 1
+              }
+            ]
+        },
+        "amount": {
+          "currency": "USD",
+          "total": "1.00"
+        },
+        "description": "This is the payment description."
+      }
+     ]
+    },
+
+
+    "execute": {
+
+      "transactions": [
+        {
+          "amount": {
+            "currency": "USD",
+            "total": "1.00"
+          }
+        }
+      ]
+    }
+  }
+}
